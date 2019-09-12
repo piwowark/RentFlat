@@ -433,6 +433,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ContactCleanInfo" />
@@ -448,6 +449,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contract" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ContractContactRole" />
@@ -502,6 +504,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="LeadCleanInfo" />
@@ -523,6 +526,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="OpportunityCompetitor" />
@@ -535,6 +539,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Order" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="OrderItem" />
@@ -547,12 +552,14 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Pricebook2" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="PricebookEntry" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Product2" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ProductConsumptionSchedule" />
