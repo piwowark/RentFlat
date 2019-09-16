@@ -1634,6 +1634,10 @@
                           <MetadataEntry>
                             <option name="name" value="Work%2Ecom Only User" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Rent Flat Sales Rep" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="Profile" />
