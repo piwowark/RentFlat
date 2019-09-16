@@ -1,0 +1,6 @@
+/**
+ * Created by BRITENET on 13.09.2019.
+ */
+.active.THIS, .slds-button_reset:hover.THIS {
+  box-shadow: inset 3px 9px 61px 8px rgba(166,227,255,1);
+}
