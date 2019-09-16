@@ -5,7 +5,6 @@
     searchDivision : function(component, accounts){
         let mapMarkers = [];
         for (let i = 0; i < accounts.length; i++) {
-            console.log("item " + i);
             let account = accounts[i];
             let marker = {
                 'location': {

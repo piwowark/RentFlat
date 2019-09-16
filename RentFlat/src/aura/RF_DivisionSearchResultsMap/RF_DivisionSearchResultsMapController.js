@@ -4,7 +4,6 @@
 ({
     searchAccounts : function(component, event, helper){
         let params = event.getParam("arguments");
-        console.log('Aura Received! ' + params.accounts);
         helper.searchDivision(component, params.accounts);
     },
     selectItemEventHandle : function(component, event, helper){

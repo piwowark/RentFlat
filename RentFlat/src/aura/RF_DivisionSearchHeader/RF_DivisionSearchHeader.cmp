@@ -1,0 +1,14 @@
+<aura:component >
+    <aura:registerEvent name="showEditForm" type="c:RF_DivisionSearchShowEditFormEvent"/>
+    <lightning:card>
+        <aura:set attribute="title">
+            <div style="float: left">
+                <lightning:icon iconName="custom:custom100"/>
+                {!$Label.c.RF_SearchDivisionLabel}
+            </div>
+            <div style="float: right">
+                <lightning:button label="New" onclick="{!c.showEditForm}"/>
+            </div>
+        </aura:set>
+    </lightning:card>
+</aura:component>

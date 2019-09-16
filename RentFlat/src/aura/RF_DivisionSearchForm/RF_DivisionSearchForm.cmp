@@ -1,0 +1,36 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <aura:attribute name="dataToSearch" type="Account" default="{'sobjectType':'Account','Name':'','AccountNumber':'','Phone':''}"/>
+    <aura:registerEvent name="clearEvent" type="c:RF_DivisionSearchClearEvent"/>
+    <aura:registerEvent name="searchAccounts" type="c:RF_DivisionSearchSearchEvent"/>
+    <aura:attribute name="isSearched" type="Boolean" default="false"/>
+    <aura:method name="updateResults" action="{!c.searchClick}"/>
+
+        <lightning:card>
+            <aura:set attribute="title">
+                {!$Label.c.RF_SearchLabel}
+            </aura:set>
+            <lightning:recordEditForm aura:id="recordViewForm" objectApiName="Account">
+                <div style="margin-left: 10px; margin-right: 10px;">
+                    <lightning:layout multipleRows="true">
+                        <lightning:layoutItem size="5">
+                            <lightning:input label="{!$Label.c.RF_AccountNameLabel}" aura:id="AccountName"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="1">
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="5">
+                            <lightning:input aura:id="Phone" label="{!$Label.c.RF_PhoneLabel}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="5">
+                            <lightning:input aura:id="AccountNumber" label="{!$Label.c.RF_AccountNumberLabel}" />
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="7">
+                        </lightning:layoutItem>
+                    </lightning:layout>
+                    <div style="text-align: left; margin-top: 5px;">
+                        <lightning:button label="{!$Label.c.RF_SearchBtn}" iconName="utility:zoomin" variant="brand" onclick="{!c.searchClick}"/>
+                        <lightning:button label="{!$Label.c.RF_ClearBtn}" onclick="{!c.clearClick}" />
+                    </div>
+                </div>
+            </lightning:recordEditForm>
+        </lightning:card>
+</aura:component>
