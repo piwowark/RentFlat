@@ -9,7 +9,7 @@
     },
     showEditForm : function(component, event, helper){
         let showEdit = component.getEvent("showEditForm");
-        showEdit.setParams({ "accountItem":component.get("v.accountItem"), "modalTitle": "Edit Division" });
+        showEdit.setParams({ "accountItem":component.get("v.accountItem"), "modalTitle": $A.get("$Label.c.RF_EditDivisionLabel")});
         showEdit.fire();
     },
     clear : function(component, event, helper){

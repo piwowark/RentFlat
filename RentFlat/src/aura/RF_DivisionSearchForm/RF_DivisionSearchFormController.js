@@ -12,16 +12,18 @@
                                             'AccountNumber':component.find("AccountNumber").get("v.value"),
                                             'Phone':component.find("Phone").get("v.value")});
             let account = component.get("v.dataToSearch");
-            let searchDivision = $A.get("e.c:RF_SearchDivisionSearchEvent");
+            let searchDivision = component.getEvent("searchAccounts");
             searchDivision.setParams({ "item": account });
+            console.log('Fire Event');
             searchDivision.fire();
         }
     },
     clearClick : function(component, event, helper){
         component.set("v.isSearched", false);
         let clearEvt = component.getEvent("clearEvent");
-        console.log(clearEvt);
         clearEvt.fire();
-        component.set("v.dataToSearch",{'sobjectType':'Account','Name':'','AccountNumber':'','Phone':''});
+        component.find("AccountName").set("v.value", "");
+        component.find("AccountNumber").set("v.value", "");
+        component.find("Phone").set("v.value", "");
     }
 })

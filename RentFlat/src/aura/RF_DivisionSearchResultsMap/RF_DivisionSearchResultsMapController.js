@@ -2,9 +2,10 @@
  * Created by BRITENET on 13.09.2019.
  */
 ({
-    searchEventHandle : function(component, event, helper){
-        let dataToSearch = event.getParam("item");
-        helper.searchDivision(component, dataToSearch);
+    searchAccounts : function(component, event, helper){
+        let params = event.getParam("arguments");
+        console.log('Aura Received! ' + params.accounts);
+        helper.searchDivision(component, params.accounts);
     },
     selectItemEventHandle : function(component, event, helper){
         let item = event.getParam("item");

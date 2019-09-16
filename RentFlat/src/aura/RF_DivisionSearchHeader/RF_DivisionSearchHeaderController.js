@@ -4,7 +4,7 @@
 ({
     showEditForm : function(component, event, helper){
         let showEdit = component.getEvent("showEditForm");
-        showEdit.setParams({ "modalTitle": "New Division" });
+        showEdit.setParams({"modalTitle": $A.get("$Label.c.RF_NewDivisionLabel")});
         showEdit.fire();
     }
 })
