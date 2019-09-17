@@ -2,9 +2,13 @@
     <aura:registerEvent name="showEditForm" type="c:RF_DivisionSearchShowEditFormEvent"/>
     <lightning:card>
         <aura:set attribute="title">
-            <div style="float: left">
-                <lightning:icon iconName="custom:custom100"/>
-                {!$Label.c.RF_SearchDivisionLabel}
+            <div style="float: left; display: inline-block; width 50%;">
+                <div style="float: left;">
+                    <lightning:icon iconName="custom:custom100" />
+                </div>
+                <div style="float: left; text-align: center; height: 32px; margin-left: 5px;">
+                    <h2>{!$Label.c.RF_SearchDivisionLabel}</h2>
+                </div>
             </div>
             <div style="float: right">
                 <lightning:button label="New" onclick="{!c.showEditForm}"/>

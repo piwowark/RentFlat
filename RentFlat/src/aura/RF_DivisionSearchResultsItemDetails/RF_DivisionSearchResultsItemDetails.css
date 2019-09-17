@@ -1,0 +1,9 @@
+/**
+ * Created by BRITENET on 17.09.2019.
+ */
+.THIS.legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}

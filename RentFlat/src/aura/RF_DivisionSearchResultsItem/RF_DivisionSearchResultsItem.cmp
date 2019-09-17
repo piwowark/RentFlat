@@ -3,22 +3,22 @@
     <aura:handler event="c:RF_DivisionSearchSelectItemEvent" action="{!c.selectItemEventHandle}" />
     <aura:attribute name="accountItem" type="Account" />
     <aura:attribute name="isClicked" type="Boolean" default="false"/>
-        <lightning:button aura:id="ButtonWithData" class="slds-coordinates__item-action slds-button_reset slds-media" onclick="{!c.selectItem}">
-          <span class="slds-media__figure">
-            <lightning:icon iconName="standard:user" />
-          </span>
-            <span class="slds-media__body">
-                <lightning:layout multipleRows="true">
-                    <lightning:layoutItem size="12">
-                        <p style="float: left;">{!v.accountItem.Name}</p>
-                    </lightning:layoutItem>
-                    <lightning:layoutItem size="6">
-                        <p style="float: left;">{!v.accountItem.AccountNumber}</p>
-                    </lightning:layoutItem>
-                    <lightning:layoutItem size="6">
-                        <p style="float: left;">{!v.accountItem.Phone}</p>
-                    </lightning:layoutItem>
-                </lightning:layout>
-          </span>
-        </lightning:button>
+    <lightning:button aura:id="ButtonWithData" class="slds-coordinates__item-action slds-button_reset slds-media" onclick="{!c.selectItem}">
+    <span class="slds-media__figure">
+        <lightning:icon iconName="standard:user" />
+    </span>
+    <span class="slds-media__body">
+        <lightning:layout multipleRows="true">
+            <lightning:layoutItem size="12">
+                <p style="float: left;">{!v.accountItem.Name}</p>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6">
+                <p style="float: left;">{!v.accountItem.AccountNumber}</p>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6">
+                <p style="float: left;">{!v.accountItem.Phone}</p>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </span>
+    </lightning:button>
 </aura:component>

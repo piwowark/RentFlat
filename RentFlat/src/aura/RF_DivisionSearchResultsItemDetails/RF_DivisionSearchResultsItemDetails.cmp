@@ -20,34 +20,44 @@
         </aura:set>
         <aura:if isTrue="{!v.showComponent}">
             <div style="padding: 10px;">
-                <lightning:recordViewForm recordId="{!v.accountItem.Id}" objectApiName="Account" >
-                    <div class="slds-box">
-                        <lightning:layout multipleRows="true">
-                            <lightning:layoutItem alignmentBump="left" size="6">
-                                <lightning:outputField fieldName="Name"/>
-                                <lightning:outputField fieldName="ParentId"/>
+                <lightning:recordViewForm recordId="{!v.accountItem.Id}" objectApiName="Account">
+                    <lightning:layout multipleRows="true">
+                        <lightning:layoutItem size="12">
+                            <span class="slds-media__figure" style="float: left;">
+                                <lightning:icon iconName="standard:user" />
+                            </span>
+                            <span class="slds-media__body">
+                                <p style="float: left; font-size: 150%;">{!v.accountItem.Name}</p>
+                            </span>
+                        </lightning:layoutItem>
+                        <fieldset class="slds-box" style="width: 100%; margin-top 15px;">
+                            <legend>{!$Label.c.RF_InformationLabel}</legend>
+                                <lightning:outputField fieldName="RecordTypeId"/>
                                 <lightning:outputField fieldName="AccountNumber"/>
-                                <lightning:outputField fieldName="Site"/>
+                                <lightning:outputField fieldName="Website"/>
                                 <lightning:outputField fieldName="Type"/>
                                 <lightning:outputField fieldName="Industry"/>
-                                <lightning:outputField fieldName="BillingCountry"/>
-                                <lightning:outputField fieldName="BillingCity"/>
-                                <lightning:outputField fieldName="BillingStreet"/>
-                            </lightning:layoutItem>
-                            <lightning:layoutItem alignmentBump="right" size="6">
-                                <lightning:outputField fieldName="RecordTypeId"/>
-                                <lightning:outputField fieldName="Rating"/>
+                        </fieldset>
+                        <fieldset class="slds-box" style="width: 100%">
+                            <legend>{!$Label.c.RF_ContactLabel}</legend>
                                 <lightning:outputField fieldName="Phone"/>
                                 <lightning:outputField fieldName="Fax"/>
-                                <lightning:outputField fieldName="Website"/>
-                                <lightning:outputField fieldName="TickerSymbol"/>
-                                <lightning:outputField fieldName="Employees"/>
-                                <lightning:outputField fieldName="ShippingCountry"/>
-                                <lightning:outputField fieldName="ShippingCity"/>
-                                <lightning:outputField fieldName="ShippingStreet"/>
-                            </lightning:layoutItem>
-                        </lightning:layout>
-                    </div>
+                        </fieldset>
+                        <lightning:layoutItem size="6">
+                            <fieldset class="slds-box">
+                                <legend>{!$Label.c.RF_BillingAddressLabel}</legend>
+                                <lightning:formattedAddress street="{!v.accountItem.BillingStreet}" city="{!v.accountItem.BillingCity}"
+                                                            country="{!v.accountItem.BillingCountry}" province="{!v.accountItem.BillingState}" postalCode="{!v.accountItem.BillingPostalCode}"/>
+                            </fieldset>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <fieldset class="slds-box">
+                                <legend>{!$Label.c.RF_ShippingAddressLabel}</legend>
+                                <lightning:formattedAddress street="{!v.accountItem.ShippingStreet}" city="{!v.accountItem.ShippingCity}"
+                                                            country="{!v.accountItem.ShippingCountry}" province="{!v.accountItem.ShippingState}" postalCode="{!v.accountItem.ShippingPostalCode}"/>
+                            </fieldset>
+                        </lightning:layoutItem>
+                    </lightning:layout>
                 </lightning:recordViewForm>
             </div>
         </aura:if>
