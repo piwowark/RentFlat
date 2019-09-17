@@ -27,12 +27,12 @@
                 <c:RF_DivisionSearchForm aura:id="SearchForm"/>
             </div>
             <div style="border-style: groove; border-radius: 5px; margin: 5px;">
-            <c:RF_DivisionSearchResults aura:id="Results"/>
+                <c:RF_DivisionSearchResults aura:id="Results"/>
             </div>
         </lightning:layoutItem>
         <lightning:layoutItem size="6">
             <div style="border-style: groove; border-radius: 5px; margin: 5px;">
-            <c:RF_DivisionSearchResultsMap aura:id="ResultsMap"/>
+                <c:RF_DivisionSearchResultsMap aura:id="ResultsMap"/>
             </div>
             <div style="border-style: groove; border-radius: 5px; margin: 5px;">
                 <c:RF_DivisionSearchResultsItemDetails aura:id="ItemDetails"/>

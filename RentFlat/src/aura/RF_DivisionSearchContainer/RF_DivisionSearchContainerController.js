@@ -18,6 +18,8 @@
     },
     updateResultsEvent : function(component, event, helper){
         let searchForm = component.find("SearchForm");
+        let itemDetails = component.find("ItemDetails");
+        itemDetails.updateResult();
         searchForm.updateResults();
     },
     showSpinner : function(component, event, helper){

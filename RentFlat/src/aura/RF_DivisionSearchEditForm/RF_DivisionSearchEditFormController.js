@@ -10,8 +10,7 @@
         updateEvt.fire();
         let toastEvent = $A.get("e.force:showToast");
         toastEvent.setParams({
-            "title": "Success!",
-            "message": "Success!",
+            "message": $A.get("$Label.c.RF_SaveSuccessfulLabel"),
             "type":"success"
         });
         toastEvent.fire();
@@ -19,8 +18,7 @@
     handleError : function(component, event, helper){
         let toastEvent = $A.get("e.force:showToast");
         toastEvent.setParams({
-            "title": "Fail",
-            "message": "Save failed",
+            "message": $A.get("$Label.c.RF_SaveFailedLabel"),
             "type":"error"
         });
         toastEvent.fire();

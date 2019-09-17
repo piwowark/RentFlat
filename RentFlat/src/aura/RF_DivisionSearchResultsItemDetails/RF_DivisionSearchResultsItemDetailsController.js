@@ -18,5 +18,6 @@
     deleteAccount : function(component, event, helper){
         let accountItem = component.get("v.accountItem");
         helper.deleteItem(component, accountItem);
-    }
+    },
+
 })

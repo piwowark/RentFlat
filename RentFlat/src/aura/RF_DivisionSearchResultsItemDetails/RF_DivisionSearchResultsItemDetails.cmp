@@ -6,6 +6,7 @@
     <aura:registerEvent name="showEditForm" type="c:RF_DivisionSearchShowEditFormEvent"/>
     <aura:registerEvent type="c:RF_DivisionSearchUpdateResultsEvent" name="updateResults"/>
     <aura:method name="clear" action="{!c.clear}"/>
+    <aura:method name="updateResult" action="{!c.clear}"/>
     <lightning:card>
         <aura:set attribute="title">
             <div style="float: left">
