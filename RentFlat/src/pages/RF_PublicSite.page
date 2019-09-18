@@ -1,0 +1,4 @@
+<apex:page controller="RF_PublicSiteController" showHeader="false">
+    <apex:include pageName="TakeSurvey" rendered="{!isFromOfferPoll}"/>
+    <apex:include pageName="RF_PublicSiteLeadForm" rendered="{!NOT(isFromOfferPoll)}"/>
+</apex:page>
