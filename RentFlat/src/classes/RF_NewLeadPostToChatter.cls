@@ -12,16 +12,19 @@ global class RF_NewLeadPostToChatter {
 
         messageBodyInput.messageSegments = new List<ConnectApi.MessageSegmentInput>();
 
+        ConnectApi.EntityLinkSegmentInput entityLinkSegmentInputOwnerId = new ConnectApi.EntityLinkSegmentInput();
+        entityLinkSegmentInputOwnerId.entityId = newLead.OwnerId;
+        messageBodyInput.messageSegments.add(entityLinkSegmentInputOwnerId);
+
         ConnectApi.TextSegmentInput textSegmentInput1 = new ConnectApi.TextSegmentInput();
-        textSegmentInput1.text = newLead.CreatedBy.FirstName + ' ' + newLead.CreatedBy.FirstName + 'has created a new Lead - ';
+        textSegmentInput1.text = ' has created a new Lead - ';
         messageBodyInput.messageSegments.add(textSegmentInput1);
 
-        ConnectApi.EntityLinkSegmentInput entityLinkSegmentInputContact = new ConnectApi.EntityLinkSegmentInput();
-        entityLinkSegmentInputContact.entityId = newLead.Id;
+        ConnectApi.EntityLinkSegmentInput entityLinkSegmentInputLeadId = new ConnectApi.EntityLinkSegmentInput();
+        entityLinkSegmentInputLeadId.entityId = newLead.Id;
+        messageBodyInput.messageSegments.add(entityLinkSegmentInputLeadId);
 
-        messageBodyInput.messageSegments.add(entityLinkSegmentInputContact);
         ConnectApi.TextSegmentInput textSegmentInput2 = new ConnectApi.TextSegmentInput();
-
         textSegmentInput2.text = '.';
         messageBodyInput.messageSegments.add(textSegmentInput2);
 
