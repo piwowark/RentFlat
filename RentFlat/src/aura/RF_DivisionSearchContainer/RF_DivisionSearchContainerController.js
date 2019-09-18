@@ -22,13 +22,8 @@
         itemDetails.updateResult();
         searchForm.updateResults();
     },
-    showSpinner : function(component, event, helper){
-        component.set("v.Spinner", true);
-    },
-    hideSpinner : function(component, event, helper){
-        component.set("v.Spinner", false);
-    },
     searchAccounts : function(component, event, helper){
+        component.set("v.Spinner", true);
         let dataToSearch = event.getParam("item");
         let action = component.get("c.searchDivisions");
         action.setParams({"dataToSearch": dataToSearch});
@@ -39,9 +34,8 @@
                 let results = component.find("Results");
                 let resultsMap = component.find("ResultsMap");
                 results.searchAccounts(accounts);
-                console.log('aura methods runs1');
                 resultsMap.searchAccounts(accounts);
-                console.log('aura methods runs2');
+                component.set("v.Spinner", false);
             }
         });
         $A.enqueueAction(action);

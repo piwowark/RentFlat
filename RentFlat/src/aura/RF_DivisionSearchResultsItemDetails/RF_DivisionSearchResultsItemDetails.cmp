@@ -2,6 +2,7 @@
     <aura:attribute name="accountDefaultItem" type="Account" />
     <aura:attribute name="accountItem" type="Account" />
     <aura:attribute name="showComponent" type="Boolean" />
+    <aura:attribute name="showSpinner" type="Boolean" />
     <aura:handler event="c:RF_DivisionSearchSelectItemEvent" action="{!c.selectItemEventHandle}"/>
     <aura:registerEvent name="showEditForm" type="c:RF_DivisionSearchShowEditFormEvent"/>
     <aura:registerEvent type="c:RF_DivisionSearchUpdateResultsEvent" name="updateResults"/>
@@ -19,6 +20,11 @@
                 </div>
             </aura:if>
         </aura:set>
+        <aura:if isTrue="{!v.showSpinner}">
+            <div class="exampleHolder">
+                <lightning:spinner alternativeText="Loading" size="large" />
+            </div>
+        </aura:if>
         <aura:if isTrue="{!v.showComponent}">
             <div style="padding: 10px;">
                 <lightning:recordViewForm recordId="{!v.accountItem.Id}" objectApiName="Account">

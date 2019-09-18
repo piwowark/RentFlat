@@ -1,7 +1,5 @@
 <aura:component controller="RF_DivisionSearchController" implements="flexipage:availableForAllPageTypes">
     <ltng:require styles="{!$Resource.RF_LightningPageWithoutDefaultHeader}"/>
-    <aura:handler event="aura:waiting" action="{!c.showSpinner}"/>
-    <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}"/>
     <aura:attribute name="Spinner" type="boolean" default="false"/>
     <aura:handler event="c:RF_DivisionSearchShowEditFormEvent" action="{!c.showEditForm}" name="showEditForm"/>
     <aura:handler event="c:RF_DivisionSearchClearEvent" action="{!c.clearEvt}" name="clearEvent" />

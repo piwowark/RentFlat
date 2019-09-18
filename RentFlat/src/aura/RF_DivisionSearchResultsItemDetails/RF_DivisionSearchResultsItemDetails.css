@@ -1,0 +1,9 @@
+/**
+ * Created by BRITENET on 18.09.2019.
+ */
+.THIS.exampleHolder{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}

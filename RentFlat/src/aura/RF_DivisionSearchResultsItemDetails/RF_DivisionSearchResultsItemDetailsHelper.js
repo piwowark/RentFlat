@@ -12,12 +12,14 @@
     },
     deleteItem : function(component, item){
         let action = component.get("c.deleteDivision");
+
         action.setParams({"dataToDelete": item});
         action.setCallback(this, function(response){
             let state = response.getState();
             if(state === "SUCCESS"){
                 let updateEvt = component.getEvent("updateResults");
                 updateEvt.fire();
+                component.set("v.showSpinner", false);
                 component.set("v.showComponent", false);
             }
         });
