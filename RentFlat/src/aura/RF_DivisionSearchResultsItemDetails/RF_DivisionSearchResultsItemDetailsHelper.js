@@ -10,7 +10,7 @@
             component.set("v.showComponent", itemToAdd);
         }
     },
-    deleteItem : function(component, item){
+    deleteItem : function(component, item, spinner){
         let action = component.get("c.deleteDivision");
 
         action.setParams({"dataToDelete": item});
@@ -19,9 +19,9 @@
             if(state === "SUCCESS"){
                 let updateEvt = component.getEvent("updateResults");
                 updateEvt.fire();
-                component.set("v.showSpinner", false);
                 component.set("v.showComponent", false);
             }
+            spinner.toggleSpinner(false);
         });
         $A.enqueueAction(action);
     }

@@ -20,11 +20,7 @@
                 </div>
             </aura:if>
         </aura:set>
-        <aura:if isTrue="{!v.showSpinner}">
-            <div class="exampleHolder">
-                <lightning:spinner alternativeText="Loading" size="large" />
-            </div>
-        </aura:if>
+        <c:RF_DivisionSearchSpinner aura:id="Spinner"/>
         <aura:if isTrue="{!v.showComponent}">
             <div style="padding: 10px;">
                 <lightning:recordViewForm recordId="{!v.accountItem.Id}" objectApiName="Account">

@@ -23,7 +23,8 @@
         searchForm.updateResults();
     },
     searchAccounts : function(component, event, helper){
-        component.set("v.Spinner", true);
+        let spinner = component.find("Spinner");
+        spinner.toggleSpinner(true);
         let dataToSearch = event.getParam("item");
         let action = component.get("c.searchDivisions");
         action.setParams({"dataToSearch": dataToSearch});
@@ -35,8 +36,8 @@
                 let resultsMap = component.find("ResultsMap");
                 results.searchAccounts(accounts);
                 resultsMap.searchAccounts(accounts);
-                component.set("v.Spinner", false);
             }
+            spinner.toggleSpinner(false);
         });
         $A.enqueueAction(action);
     }

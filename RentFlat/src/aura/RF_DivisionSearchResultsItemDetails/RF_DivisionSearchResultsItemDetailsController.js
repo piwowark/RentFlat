@@ -16,9 +16,10 @@
         component.set("v.showComponent", false);
     },
     deleteAccount : function(component, event, helper){
-        component.set("v.showSpinner", true);
+        let spinner = component.find("Spinner");
+        spinner.toggleSpinner(true);
         let accountItem = component.get("v.accountItem");
-        helper.deleteItem(component, accountItem);
+        helper.deleteItem(component, accountItem, spinner);
     },
 
 })

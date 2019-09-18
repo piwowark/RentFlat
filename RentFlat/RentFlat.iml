@@ -35,6 +35,10 @@
                             <option name="name" value="RF_Utils" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -155,6 +159,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="RF_DivisionSearchSearchEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchSpinner" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>

@@ -5,15 +5,7 @@
     <aura:handler event="c:RF_DivisionSearchClearEvent" action="{!c.clearEvt}" name="clearEvent" />
     <aura:handler event="c:RF_DivisionSearchUpdateResultsEvent" action="{!c.updateResultsEvent}" name="updateResults" />
     <aura:handler event="c:RF_DivisionSearchSearchEvent" action="{!c.searchAccounts}" name="searchAccounts" />
-    <aura:if isTrue="{!v.Spinner}">
-        <div aura:id="spinnerId" class="slds-spinner_container">
-            <div class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative" role="alert">
-                <span class="slds-assistive-text">Loading</span>
-                <div class="slds-spinner__dot-a"></div>
-                <div class="slds-spinner__dot-b"></div>
-            </div>
-        </div>
-    </aura:if>
+    <c:RF_DivisionSearchSpinner aura:id="Spinner"/>
     <lightning:layout multipleRows="true">
         <lightning:layoutItem size="12">
             <div style="border-style: groove; border-radius: 5px;">
