@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c65b159f-d414-43e5-a58c-622218df0207" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IlluminatedCloud/RentFlat/OfflineSymbolTable.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IlluminatedCloud/RentFlat/OfflineSymbolTable.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RentFlat/RentFlat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RentFlat/RentFlat.iml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -1643,10 +1643,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="1550" />
-    <option name="height" value="838" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
@@ -1656,7 +1656,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -1672,17 +1671,15 @@
             </path>
             <path>
               <item name="RentFlat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="RentFlat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; IlluminatedCloud (RentFlat/RentFlat) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="RentFlat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assignmentRules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1718,13 +1715,34 @@
       <option name="project" value="LOCAL" />
       <updated>1570525162682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c65b159f-d414-43e5-a58c-622218df0207" name="Default Changelist" comment="" />
+      <created>1570526877082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570526877082</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sales process">
+      <created>1570527104895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570527104895</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sales process">
+      <created>1570527113926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570527113926</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1739,10 +1757,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4936034" visible="true" weight="0.31852654" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49307036" visible="true" weight="0.31852654" />
       <window_info anchor="bottom" id="SOQL Query" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5063966" side_tool="true" visible="true" weight="0.31852654" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50692964" side_tool="true" visible="true" weight="0.31852654" />
       <window_info anchor="bottom" id="Anonymous Apex" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4986577" weight="0.3286119" />
       <window_info anchor="bottom" id="Problems" order="14" sideWeight="0.4978678" weight="0.33044422" />
@@ -1758,7 +1776,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="assignment rule" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment rule" />
+    <MESSAGE value="sales process" />
+    <option name="LAST_COMMIT_MESSAGE" value="sales process" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/RentFlat/src/classes/RF_Utils.cls" />

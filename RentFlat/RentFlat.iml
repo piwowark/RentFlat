@@ -55,6 +55,10 @@
                             <option name="name" value="viewSurveyResultsComponentController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AutocreatedRegHandler1570535745760" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -2444,6 +2448,21 @@
                     <MetadataType>
                       <option name="name" value="WorkflowTask" />
                       <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Members_without_contribution" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Partner_and_Customer_members" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="UserCriteria" />
                     </MetadataType>
                   </set>
                 </option>
