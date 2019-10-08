@@ -42,7 +42,11 @@
     <fieldUpdates>
         <fullName>Reassign_Case_Owner</fullName>
         <field>OwnerId</field>
+<<<<<<< HEAD
         <lookupValue>kamil.piwowar@rentflat.org</lookupValue>
+=======
+        <lookupValue>kamil.piwowar96@britenet.com.pl</lookupValue>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
         <lookupValueType>User</lookupValueType>
         <name>Reassign Case Owner</name>
         <notifyAssignee>false</notifyAssignee>
@@ -52,7 +56,11 @@
     <fieldUpdates>
         <fullName>Reassign_Owner</fullName>
         <field>OwnerId</field>
+<<<<<<< HEAD
         <lookupValue>kamil.piwowar@rentflat.org</lookupValue>
+=======
+        <lookupValue>kamil.piwowar96@britenet.com.pl</lookupValue>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
         <lookupValueType>User</lookupValueType>
         <name>Reassign Owner</name>
         <notifyAssignee>false</notifyAssignee>
@@ -62,7 +70,11 @@
     <fieldUpdates>
         <fullName>Test_Update</fullName>
         <field>OwnerId</field>
+<<<<<<< HEAD
         <lookupValue>kamil.piwowar@rentflat.org</lookupValue>
+=======
+        <lookupValue>kamil.piwowar96@britenet.com.pl</lookupValue>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
         <lookupValueType>User</lookupValueType>
         <name>Test Update</name>
         <notifyAssignee>false</notifyAssignee>

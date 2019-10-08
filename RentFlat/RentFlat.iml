@@ -28,14 +28,18 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_DivisionSearchController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+=======
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="name" value="RF_DivisionSearchHandler" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_NewLeadPostToChatter" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -48,11 +52,17 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+=======
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="name" value="RF_Utils" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="SurveyAndQuestionController" />
+=======
+                            <option name="name" value="RF_DivisionSearchController" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -123,11 +133,15 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_DivisionSearchContainer" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="RF_DivisionSearchEditForm" />
+=======
+                            <option name="name" value="RF_TestEdit/aura/RF_DivisionSearchComponent" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -135,10 +149,13 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_DivisionSearchHeader" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+=======
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="name" value="RF_DivisionSearchResults" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -155,11 +172,23 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_DivisionSearchSearchEvent" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="RF_DivisionSearchSelectItemEvent" />
+=======
+                            <option name="name" value="RF_DivisionSearchSelectItemEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchContainer" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchEditForm" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -167,7 +196,15 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_DivisionSearchSpinner" />
+=======
+                            <option name="name" value="RF_DivisionSearchHeader" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchClearEvent" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -175,7 +212,15 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_SearchDivisionSearchEvent" />
+=======
+                            <option name="name" value="RF_DivisionSearchSearchEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchSpinner" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -717,11 +762,46 @@
                             <option name="name" value="UserProvisioningRequest" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
+=======
+                            <option name="name" value="AgentWorkSkill" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="CaseMilestone" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="name" value="Knowledge__kav" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="RF_Setting__c" />
+=======
+                            <option name="name" value="LinkedArticle" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LiveAgentSession" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LiveChatTranscript" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LiveChatTranscriptEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LiveChatTranscriptSkill" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="LiveChatVisitor" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -1074,12 +1154,23 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="LightningSalesConsole_UtilityBar" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="LightningService_UtilityBar" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Rent_Flat_UtilityBar" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Case_Record_Page1" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Knowledge_Record_Page" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1806,6 +1897,22 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Live_Agents" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Multi_Skills" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Tech_Support" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="Queue" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2506,6 +2613,7 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="externals.Flag_banned" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -2519,6 +2627,21 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="externals.Review_the_first_post" />
+=======
+                            <option name="name" value="topics.Flag_banned" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="topics.Freeze_for_frequent_posting" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="topics.Replace_banned" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="topics.Review_the_first_post" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -2529,6 +2652,7 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="Test" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -2538,10 +2662,22 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="topics" />
+=======
+                            <option name="name" value="Live_Agents" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Multi_Skills" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Tech_Support" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
+<<<<<<< HEAD
                       <option name="name" value="Network" />
                     </MetadataType>
                     <MetadataType>
@@ -2577,6 +2713,9 @@
                         </list>
                       </option>
                       <option name="name" value="UserCriteria" />
+=======
+                      <option name="name" value="QueueRoutingConfig" />
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
                     </MetadataType>
                   </set>
                 </option>

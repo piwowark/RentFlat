@@ -6,6 +6,7 @@
     },
     handleSuccess : function(component, event, helper){
         component.set("v.showModal", false);
+<<<<<<< HEAD
                    let updateEvt = component.getEvent("updateResults");
                    updateEvt.fire();
                    let toastEvent = $A.get("e.force:showToast");
@@ -13,6 +14,15 @@
                        "message": $A.get("$Label.c.RF_SaveSuccessfulLabel"),
                        "type":"success"
                    });
+=======
+        let updateEvt = component.getEvent("updateResults");
+        updateEvt.fire();
+        let toastEvent = $A.get("e.force:showToast");
+        toastEvent.setParams({
+            "message": $A.get("$Label.c.RF_SaveSuccessfulLabel"),
+            "type":"success"
+        });
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
         toastEvent.fire();
     },
     handleError : function(component, event, helper){

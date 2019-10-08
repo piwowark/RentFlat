@@ -39,9 +39,15 @@
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+<<<<<<< HEAD
         <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
         <homePageOverrideSetting>Designer</homePageOverrideSetting>
         <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+=======
+        <forgotPasswordPageOverrideSetting>Designer</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Designer</homePageOverrideSetting>
+        <loginPageOverrideSetting>Designer</loginPageOverrideSetting>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>topics1</picassoSite>

@@ -16,4 +16,8 @@
             </div>
         </div>
     </aura:if>
+<<<<<<< HEAD
 </aura:component>
+=======
+</aura:component>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1

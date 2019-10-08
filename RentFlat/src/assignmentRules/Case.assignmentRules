@@ -36,7 +36,11 @@
         <fullName>Standard</fullName>
         <active>false</active>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>kamil.piwowar@rentflat.org</assignedTo>
+=======
+            <assignedTo>kamil.piwowar96@britenet.com.pl</assignedTo>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -55,7 +59,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>kamil.piwowar@rentflat.org</assignedTo>
+=======
+            <assignedTo>kamil.piwowar96@britenet.com.pl</assignedTo>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -74,7 +82,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>kamil.piwowar@rentflat.org</assignedTo>
+=======
+            <assignedTo>kamil.piwowar96@britenet.com.pl</assignedTo>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -93,7 +105,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>kamil.piwowar@rentflat.org</assignedTo>
+=======
+            <assignedTo>kamil.piwowar96@britenet.com.pl</assignedTo>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -112,7 +128,11 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
+<<<<<<< HEAD
             <assignedTo>kamil.piwowar@rentflat.org</assignedTo>
+=======
+            <assignedTo>kamil.piwowar96@britenet.com.pl</assignedTo>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>

@@ -1,4 +1,8 @@
 <aura:event type="COMPONENT">
     <aura:attribute name="accountItem" type="Account" default="{'sobjectType':'Account','Name':'','AccountNumber':'','Phone':''}" />
+<<<<<<< HEAD
     <aura:attribute name="modalTitle" type="String"/> 
+=======
+    <aura:attribute name="modalTitle" type="String"/>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
 </aura:event>

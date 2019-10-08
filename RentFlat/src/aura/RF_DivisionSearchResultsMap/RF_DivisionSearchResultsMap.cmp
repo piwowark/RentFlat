@@ -6,7 +6,11 @@
     <aura:method name="clear" action="{!c.clear}"/>
     <aura:method name="searchAccounts" action="{!c.searchAccounts}">
         <aura:attribute name="accounts" type="Account[]" />
+<<<<<<< HEAD
     </aura:method> 
+=======
+    </aura:method>
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
 
     <lightning:card>
         <div style="padding: 10px; padding-top: 0px;">

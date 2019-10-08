@@ -4,7 +4,11 @@
     <aura:method name="searchAccounts" action="{!c.searchAccounts}">
         <aura:attribute name="accounts" type="Account[]" />
     </aura:method>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6fe267be015c88e7b7c69c6bb16ec5a02c7c1cd1
     <lightning:card>
         <aura:set attribute="title">
             {!$Label.c.RF_ResultsLabel}
