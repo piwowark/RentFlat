@@ -4,7 +4,11 @@
     <friendlyName>Google</friendlyName>
     <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
     <providerType>Google</providerType>
+<<<<<<< HEAD
     <registrationHandler>RF_RegistrationHandler</registrationHandler>
+=======
+    <registrationHandler>AutocreatedRegHandler1570535745760</registrationHandler>
+>>>>>>> 9155a11740b971a8acb022dfb5c163db6ae8574b
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
 </AuthProvider>

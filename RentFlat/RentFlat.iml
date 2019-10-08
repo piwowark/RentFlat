@@ -28,6 +28,7 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="CommunitiesLoginController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -37,6 +38,37 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="LightningForgotPasswordController" />
+=======
+                            <option name="name" value="RF_PublicSiteController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_Utils" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_NewLeadPostToChatter" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyAndQuestionController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="ViewSurveyController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="viewShareSurveyComponentController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="viewSurveyResultsComponentController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AutocreatedRegHandler1570535745760" />
+>>>>>>> 9155a11740b971a8acb022dfb5c163db6ae8574b
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -50,11 +82,27 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+<<<<<<< HEAD
                             <option name="name" value="ForgotPassword" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="ForgotPasswordConfirm" />
+=======
+                            <option name="name" value="TakeSurvey" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_PublicSiteLeadForm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="GSurveys" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyPage" />
+>>>>>>> 9155a11740b971a8acb022dfb5c163db6ae8574b
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -649,6 +697,22 @@
                           <MetadataEntry>
                             <option name="name" value="UserProvisioningRequest" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyQuestionResponse__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyTaker__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Survey_Question__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Quote" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CustomObject" />
@@ -825,6 +889,14 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-report" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyTaker__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Survey_Question__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1219,6 +1291,18 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="UserProvisioningRequest-User Provisioning Request Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyQuestionResponse__c-Survey Question Answer Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyTaker__c-SurveyTaker Layout" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Survey_Question__c-Survey Question Layout" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -2049,6 +2133,10 @@
                           <MetadataEntry>
                             <option name="name" value="User" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyTaker__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="SharingRules" />
@@ -2247,6 +2335,38 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="RF_PublicSiteLeadNewForm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyForce" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyForce_SLDS" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyForce_UserGuide" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyForce_jquery" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyForce_jquery_ui" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyForce_svg4everybody" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="StaticResource" />
                     </MetadataType>
                     <MetadataType>
