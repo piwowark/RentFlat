@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION">
+    <aura:attribute name="item" type="Account" default="{'sobjectType':'Account','Name':'','AccountNumber':'','Phone':''}" />
+    <aura:attribute name="itemToAdd" type="Boolean"/>
+</aura:event>

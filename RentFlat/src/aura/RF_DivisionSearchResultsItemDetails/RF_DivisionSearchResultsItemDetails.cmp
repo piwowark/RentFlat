@@ -1,0 +1,68 @@
+<aura:component controller="RF_DivisionSearchController"  implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="accountDefaultItem" type="Account" />
+    <aura:attribute name="accountItem" type="Account" />
+    <aura:attribute name="showComponent" type="Boolean" />
+    <aura:attribute name="showSpinner" type="Boolean" />
+    <aura:handler event="c:RF_DivisionSearchSelectItemEvent" action="{!c.selectItemEventHandle}"/>
+    <aura:registerEvent name="showEditForm" type="c:RF_DivisionSearchShowEditFormEvent"/>
+    <aura:registerEvent type="c:RF_DivisionSearchUpdateResultsEvent" name="updateResults"/>
+    <aura:method name="clear" action="{!c.clear}"/>
+    <aura:method name="updateResult" action="{!c.clear}"/>
+    <lightning:card>
+        <aura:set attribute="title">
+            <div style="float: left">
+                {!$Label.c.RF_DetailsLabel}
+            </div>
+            <aura:if isTrue="{!v.showComponent}">
+                <div style="float: right">
+                    <lightning:button label="{!$Label.c.RF_EditBtn}" iconName="utility:edit" onclick="{!c.showEditForm}"/>
+                    <lightning:button label="{!$Label.c.RF_DeleteBtn}" iconName="utility:delete" variant="destructive" onclick="{!c.deleteAccount}"/>
+                </div>
+            </aura:if>
+        </aura:set>
+        <c:RF_DivisionSearchSpinner aura:id="Spinner"/>
+        <aura:if isTrue="{!v.showComponent}">
+            <div style="padding: 10px;">
+                <lightning:recordViewForm recordId="{!v.accountItem.Id}" objectApiName="Account">
+                    <lightning:layout multipleRows="true">
+                        <lightning:layoutItem size="12">
+                            <span class="slds-media__figure" style="float: left;">
+                                <lightning:icon iconName="standard:user" />
+                            </span>
+                            <span class="slds-media__body">
+                                <p style="float: left; font-size: 150%;">{!v.accountItem.Name}</p>
+                            </span>
+                        </lightning:layoutItem>
+                        <fieldset class="slds-box" style="width: 100%; margin-top 15px;">
+                            <legend>{!$Label.c.RF_InformationLabel}</legend>
+                                <lightning:outputField fieldName="RecordTypeId"/>
+                                <lightning:outputField fieldName="AccountNumber"/>
+                                <lightning:outputField fieldName="Website"/>
+                                <lightning:outputField fieldName="Type"/>
+                                <lightning:outputField fieldName="Industry"/>
+                        </fieldset>
+                        <fieldset class="slds-box" style="width: 100%">
+                            <legend>{!$Label.c.RF_ContactLabel}</legend>
+                                <lightning:outputField fieldName="Phone"/>
+                                <lightning:outputField fieldName="Fax"/>
+                        </fieldset>
+                        <lightning:layoutItem size="6">
+                            <fieldset class="slds-box">
+                                <legend>{!$Label.c.RF_BillingAddressLabel}</legend>
+                                <lightning:formattedAddress street="{!v.accountItem.BillingStreet}" city="{!v.accountItem.BillingCity}"
+                                                            country="{!v.accountItem.BillingCountry}" province="{!v.accountItem.BillingState}" postalCode="{!v.accountItem.BillingPostalCode}"/>
+                            </fieldset>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <fieldset class="slds-box">
+                                <legend>{!$Label.c.RF_ShippingAddressLabel}</legend>
+                                <lightning:formattedAddress street="{!v.accountItem.ShippingStreet}" city="{!v.accountItem.ShippingCity}"
+                                                            country="{!v.accountItem.ShippingCountry}" province="{!v.accountItem.ShippingState}" postalCode="{!v.accountItem.ShippingPostalCode}"/>
+                            </fieldset>
+                        </lightning:layoutItem>
+                    </lightning:layout>
+                </lightning:recordViewForm>
+            </div>
+        </aura:if>
+    </lightning:card>
+</aura:component>
