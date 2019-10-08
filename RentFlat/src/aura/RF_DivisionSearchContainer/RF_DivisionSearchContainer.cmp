@@ -1,0 +1,33 @@
+<aura:component controller="RF_DivisionSearchController" implements="flexipage:availableForAllPageTypes">
+    <ltng:require styles="{!$Resource.RF_LightningPageWithoutDefaultHeader}"/>
+    <aura:attribute name="Spinner" type="boolean" default="false"/>
+    <aura:handler event="c:RF_DivisionSearchShowEditFormEvent" action="{!c.showEditForm}" name="showEditForm"/>
+    <aura:handler event="c:RF_DivisionSearchClearEvent" action="{!c.clearEvt}" name="clearEvent" />
+    <aura:handler event="c:RF_DivisionSearchUpdateResultsEvent" action="{!c.updateResultsEvent}" name="updateResults" />
+    <aura:handler event="c:RF_DivisionSearchSearchEvent" action="{!c.searchAccounts}" name="searchAccounts" />
+    <c:RF_DivisionSearchSpinner aura:id="Spinner"/>
+    <lightning:layout multipleRows="true">
+        <lightning:layoutItem size="12">
+            <div style="border-style: groove; border-radius: 5px;">
+                <c:RF_DivisionSearchHeader aura:id="Header"/>
+            </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="6">
+            <div style="border-style: groove; border-radius: 5px; margin: 5px;">
+                <c:RF_DivisionSearchForm aura:id="SearchForm"/>
+            </div>
+            <div style="border-style: groove; border-radius: 5px; margin: 5px;">
+                <c:RF_DivisionSearchResults aura:id="Results"/>
+            </div>
+        </lightning:layoutItem>
+        <lightning:layoutItem size="6">
+            <div style="border-style: groove; border-radius: 5px; margin: 5px;">
+                <c:RF_DivisionSearchResultsMap aura:id="ResultsMap"/>
+            </div>
+            <div style="border-style: groove; border-radius: 5px; margin: 5px;">
+                <c:RF_DivisionSearchResultsItemDetails aura:id="ItemDetails"/>
+            </div>
+        </lightning:layoutItem>
+    </lightning:layout>
+    <c:RF_DivisionSearchEditForm aura:id="EditForm"/>
+</aura:component>

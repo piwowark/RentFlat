@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT">
+    <aura:attribute name="accountItem" type="Account" default="{'sobjectType':'Account','Name':'','AccountNumber':'','Phone':''}" />
+    <aura:attribute name="modalTitle" type="String"/> 
+</aura:event>

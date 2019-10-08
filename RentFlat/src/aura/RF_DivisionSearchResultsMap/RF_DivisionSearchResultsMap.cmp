@@ -1,0 +1,16 @@
+<aura:component controller="RF_DivisionSearchController" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="accountsList" type="Account[]" />
+    <aura:attribute name="mapDefaultMarkers" type="Map[]"/>
+    <aura:attribute name="mapMarkers" type="Map[]"/>
+    <aura:handler event="c:RF_DivisionSearchSelectItemEvent" action="{!c.selectItemEventHandle}"/>
+    <aura:method name="clear" action="{!c.clear}"/>
+    <aura:method name="searchAccounts" action="{!c.searchAccounts}">
+        <aura:attribute name="accounts" type="Account[]" />
+    </aura:method> 
+
+    <lightning:card>
+        <div style="padding: 10px; padding-top: 0px;">
+            <lightning:map mapMarkers="{! v.mapMarkers }"  markersTitle="{!v.markersTitle}" listView="hidden"/>
+        </div>
+    </lightning:card>
+</aura:component>

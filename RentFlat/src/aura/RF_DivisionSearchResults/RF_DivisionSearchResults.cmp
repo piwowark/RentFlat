@@ -1,0 +1,22 @@
+<aura:component controller="RF_DivisionSearchController" implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <aura:attribute name="searchedAccounts" type="Account[]"/>
+    <aura:method name="clear" action="{!c.clear}"/>
+    <aura:method name="searchAccounts" action="{!c.searchAccounts}">
+        <aura:attribute name="accounts" type="Account[]" />
+    </aura:method>
+    
+    <lightning:card>
+        <aura:set attribute="title">
+            {!$Label.c.RF_ResultsLabel}
+        </aura:set>
+        <div style="padding: 10px;">
+        <lightning:layout multipleRows="true">
+            <aura:iteration items="{!v.searchedAccounts}" var="item" >
+                <lightning:layoutItem size="12" >
+                    <c:RF_DivisionSearchResultsItem accountItem="{!item}" />
+                </lightning:layoutItem>
+            </aura:iteration>
+        </lightning:layout>
+        </div>
+    </lightning:card>
+</aura:component>

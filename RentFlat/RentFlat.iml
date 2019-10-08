@@ -25,6 +25,38 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchHandler" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_NewLeadPostToChatter" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_PublicSiteController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_RegistrationHandler" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_Utils" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="SurveyAndQuestionController" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="ApexClass" />
                     </MetadataType>
                     <MetadataType>
@@ -80,6 +112,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -87,6 +120,66 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchContainer" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchEditForm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchForm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchHeader" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchResults" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchResultsItem" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchResultsItemDetails" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchResultsMap" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchSearchEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchSelectItemEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchShowEditFormEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchSpinner" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_DivisionSearchUpdateResultsEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_SearchDivisionSearchEvent" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="AuraDefinitionBundle" />
                     </MetadataType>
                     <MetadataType>
@@ -105,6 +198,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -409,6 +503,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="CaseComment" />
@@ -621,6 +716,14 @@
                           <MetadataEntry>
                             <option name="name" value="UserProvisioningRequest" />
                           </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Knowledge__kav" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_Setting__c" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="CustomObject" />
@@ -639,6 +742,14 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="RF_PublicSite" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="CustomSite" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -797,6 +908,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="standard-report" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Divisions_Search" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -972,6 +1087,14 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Route_Cases" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="Flow" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -980,6 +1103,14 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Route_Cases" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="FlowDefinition" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -1479,12 +1610,15 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Individual" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -1496,6 +1630,22 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="cbTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="cbexternals" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="cbtopics" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="NetworkBranding" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2219,6 +2369,18 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="RF_LightningPageWithoutDefaultHeader" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="RF_PublicSiteLeadNewForm" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="StaticResource" />
                     </MetadataType>
                     <MetadataType>
@@ -2301,6 +2463,14 @@
                       <option name="wildcard" value="false" />
                     </MetadataType>
                     <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Lead" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
                       <option name="name" value="Workflow" />
                       <option name="wildcard" value="false" />
                     </MetadataType>
@@ -2331,6 +2501,82 @@
                     <MetadataType>
                       <option name="name" value="WorkflowTask" />
                       <option name="wildcard" value="false" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Flag_banned" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Freeze_for_frequent_posting" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Replace_banned" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Review_the_first_post" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="ModerationRule" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Test" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="externals" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="topics" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="Network" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="Available_Chat" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Busy" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="On_Break" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="ServicePresenceStatus" />
+                    </MetadataType>
+                    <MetadataType>
+                      <option name="entries">
+                        <list>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Members_without_contribution" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="externals.Partner_and_Customer_members" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                        </list>
+                      </option>
+                      <option name="name" value="UserCriteria" />
                     </MetadataType>
                   </set>
                 </option>
